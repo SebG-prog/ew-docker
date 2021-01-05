@@ -23,7 +23,7 @@ process.on("SIGTERM", () => {
 
   app.get("/", (req, res) => {
     console.log("Got a request");
-    res.json({ message: "Hey, I'm Tom, the API" });
+    res.json({ message: "Hey, I'm Tommy, the API" });
   });
 
   app.listen(3000, () => {
